@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
+gem ruby '2.0.0'
+# See https://devcenter.heroku.com/articles/ruby-versions for more information.
+
 # Use sqlite3 as the database for Active Record
 group:production do
 	gem 'pg'
